@@ -1,0 +1,11 @@
+[project]
+name = "answercrypt-server-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.136.3",
+    "sqlalchemy>=2.0.50",
+    "uvicorn>=0.48.0",
+]
