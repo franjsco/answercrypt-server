@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+    image: answercrypt-server
+    ports:
+      - "8000:8000"
+    volumes:
+      - answercrypt_data:/app/data
+
+volumes:
+  answercrypt_data:
